@@ -1,0 +1,276 @@
+    body {
+        overflow-x: hidden;
+    }
+    
+    .top {
+        background-color: #140f2d !important;
+        border-radius: 0px !important;
+    }
+    
+    .button {
+        background-color: #32475d;
+        color: white;
+        border: none;
+        position: absolute;
+        top: 95px;
+        right: 80px;
+        width: 120px;
+        height: 50px;
+        font-weight: bold;
+        margin-left: 30px;
+    }
+    
+    .icon {
+        padding-right: 10px;
+    }
+    
+    .searchbar {
+        background-color: #32475d;
+        border: none;
+        position: absolute;
+        top: 95px;
+        right: 280px;
+        width: 210px;
+        height: 50px;
+    }
+    
+    .serbtn {
+        background-color: #32475d;
+        color: white;
+        border: none;
+        position: absolute;
+        top: 95px;
+        right: 250px;
+        width: 50px;
+        height: 50px;
+    }
+    
+     ::placeholder {
+        color: white;
+        opacity: 1;
+        font-weight: bold;
+        padding-left: 8px;
+    }
+    
+    .navBar {
+        background-color: #031b37;
+        font-weight: bold;
+        text-align: center !important;
+    }
+    
+    .list li a {
+        color: white;
+        text-align: center;
+    }
+    
+    .first {
+        border-radius: 20px;
+        background-color: #32475d;
+    }
+    
+    .round:focus {
+        border-radius: 20px !important;
+        background-color: #32475d;
+    }
+    
+    .listin {
+        background-color: white !important;
+        margin-top: 8px !important;
+        text-align: center;
+    }
+    
+    .listin a {
+        color: #008ECC !important;
+        display: block;
+        width: 210px;
+        text-align: left !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    
+    .listin a:hover {
+        background-color: #32475d;
+        color: white !important;
+        text-decoration: none;
+    }
+    
+    @media only screen and (max-width:767px) {
+        .listin a {
+            margin-left: 40%;
+            background-color: #0e4d92;
+            color: white !important;
+        }
+        .listin {
+            background-color: #0e4d92 !important;
+        }
+        .listin a:hover {
+            background-color: #0e4d92;
+            text-decoration: underline !important;
+            color: white !important;
+        }
+    }
+    
+    @media only screen and (min-width:950px) {
+        .carousel {
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 3%;
+            width: 90%;
+        }
+    }
+    
+    .card {
+        margin-bottom: 10px;
+    }
+    
+    .card1 {
+        border: 0px !important;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+    
+    .card a {
+        color: black;
+    }
+    
+    .card a:hover {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .card a:focus {
+        color: #008ECC;
+        text-decoration: none;
+        opacity: 0.5;
+    }
+    
+    .card-header {
+        font-size: 30px;
+        color: black;
+        background-color: white !important;
+        font-weight: bold;
+    }
+    
+    .mob {
+        width: 90% !important;
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
+    
+    .card-title {
+        text-align: center;
+    }
+    
+    .card-text {
+        font-weight: bold;
+        text-align: center !important;
+    }
+    
+    .card-img-top {
+        width: 230x !important;
+        height: 300px !important;
+        text-align: center !important;
+        align-items: center !important;
+    }
+    
+    .footer {
+        background-color: #140f2d;
+        width: 100%;
+        height: auto;
+    }
+    
+    .footer div p {
+        color: white !important;
+        margin-top: 20px;
+    }
+    
+    .fa-facebook-f,
+    .fa-instagram,
+    .fa-twitter,
+    .fa-whatsapp {
+        color: white !important;
+        margin-left: 10px;
+    }
+    
+    .footer div .fa-facebook-f:hover {
+        color: #008ECC !important;
+    }
+    
+    .footer div .fa-instagram:hover {
+        color: pink !important;
+    }
+    
+    .footer div .fa-whatsapp:hover {
+        color: green !important;
+    }
+    
+    .footer div .fa-twitter:hover {
+        color: #008ECC !important;
+    }
+    
+    .fa-phone-alt,
+    .fa-envelope {
+        margin-right: 10px;
+        color: green;
+    }
+    
+    .para {
+        margin-left: 20%;
+    }
+    
+    .mobName {
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .imgbor {
+        border: solid 1px black;
+        text-align: center !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .imgbord {
+        border: solid 1px black;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .textbor {
+        border: solid 1px black !important;
+        text-align: center;
+        padding: 3px 8px 3px 8px;
+    }
+    
+    .addtocart {
+        background-color: red;
+        color: white;
+        border: none;
+        text-align: center;
+        padding: 3px 25px 3px 25px;
+        border-radius: 12px;
+    }
+    
+    .bor {
+        border-left: solid 1px #e5e5e5;
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .green {
+        color: green;
+        font-weight: bold;
+    }
+    
+    @media only screen and (max-width:990px) {
+        .imgbor {
+            border: solid 0px !important;
+        }
+    }
+    
+    .left {
+        padding-left: 50px !important;
+    }
